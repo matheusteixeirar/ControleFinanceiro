@@ -1,4 +1,4 @@
-# Controle de Orçamento
+# ControleOrcamento
 
 - Projeto pessoal simples de controle financeiro feito em Java com JSP, Servlet, MySQL e Tomcat.
  
