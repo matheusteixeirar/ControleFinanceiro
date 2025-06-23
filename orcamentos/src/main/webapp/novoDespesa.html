@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Controle de Orçamento</title>
+<link rel="icon" href="img/bolsa-de-dinheiro.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1 class="botaod1">Nova Despesa</h1>
+	<form name="form" action="insertDespesa" class="border">
+		<table class="tabela-despesa2">
+			<tr>
+				<td><input type="text" name="valor" placeholder="Valor (R$)" class="caixa"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="categoria" placeholder="Categoria (ex.: Alimentação, Transporte)" class="caixa"></td>
+			</tr>
+			<tr>
+				<td><textarea name="descricao" rows="3" placeholder="Descrição" class="caixa"></textarea></td>
+			</tr>
+			<tr>
+				<td><input type="date" name="data" placeholder="Data" class="caixa"></td>
+			</tr>
+		</table>
+		<input type="button" value="Adicionar" class="botao2" onclick="validar()">
+	</form>
+	<script src="scripts/validador.js"></script>
+</body>
+</html>

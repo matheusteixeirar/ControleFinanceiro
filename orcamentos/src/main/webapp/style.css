@@ -1,0 +1,170 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+}
+
+h1 {
+	color: #000000;
+	text-align: center;
+}
+
+img {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	width: 256px;
+	height: 256px;
+}
+
+a, textarea {
+	text-decoration: none;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 500;
+}
+
+.button {
+	background-color: #000000;
+	padding: 7px 10px 7px 10px;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 700;
+	border-radius: 5px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	border: none;
+	cursor: pointer;
+}
+
+.botoes {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+
+.botoes .verde {
+	background-color: #90EE90;
+	padding: 7px 10px 7px 10px;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 700;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
+
+.botoes .vermelho {
+	background-color: #d51213;
+	padding: 7px 10px 7px 10px;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 700;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
+
+
+.botoes .azul {
+	background-color: #66bbff;
+	padding: 7px 10px 7px 10px;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 700;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
+
+.botoes .orcamento {
+	background-color: #66bbff;
+	padding: 7px 10px 7px 10px;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 700;
+	border-radius: 5px;
+	border: none;
+}
+
+.botaor1 {
+	color: #90EE90;
+	text-align: center;
+		margin-right: auto;
+	margin-left: auto;
+}
+
+.botaod1 {
+	color: #d51213;
+	text-align: center;
+}
+
+.botao1 {
+	background-color: #90EE90;
+	padding: 7px 10px 7px 10px;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 700;
+	border-radius: 5px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	border: none;
+	cursor: pointer;
+}
+
+.botao2 {
+	background-color: #d51213;
+	padding: 7px 10px 7px 10px;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 700;
+	border-radius: 5px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	border: none;
+	cursor: pointer;
+}
+
+.caixa {
+	width: 350px;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 2px solid #000000;
+	border-radius: 5px;
+}
+
+table {
+	margin-top: 30px;
+	border-collapse: collapse;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.tabela-receita th {
+    background-color: #90EE90;
+    color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.tabela-receita td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.tabela-despesa th {
+    background-color: #d51213;
+    color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.tabela-despesa td {
+    border: 1px solid #ddd;
+	padding: 10px;
+}

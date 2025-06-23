@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Controle de Orçamento</title>
+<link rel="icon" href="img/bolsa-de-dinheiro.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1 class="botaor1">Nova receita</h1>
+	<form name="form" action="insertReceita" class="border">
+		<table>
+			<tr>
+				<td><input type="text" name="valor" placeholder="Valor (R$)" class="caixa"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="categoria" placeholder="Categoria (ex.: Salário, Vendas)" class="caixa"></td>
+			</tr>
+			<tr>
+				<td><textarea name="descricao" rows="3" placeholder="Descrição" class="caixa"></textarea></td>
+			</tr>
+			<tr>
+				<td><input type="date" name="data" placeholder="Data" class="caixa"></td>
+			</tr>
+		</table>
+		<input type="button" value="Adicionar" class="botao1" onclick="validar()">
+	</form>
+	<script src="scripts/validador.js"></script>
+</body>
+</html>
