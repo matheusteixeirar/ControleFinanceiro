@@ -10,7 +10,8 @@ CRUD de receitas e despesas
 Visualizar o saldo (orçamento) e o total de receitas e despesas
 
 
-- Tecnologias usadas 
+- Tecnologias usadas
+
 Java
 
 Servlets e JSP
@@ -24,4 +25,4 @@ HTML, CSS, JavaScript
 
 - Vídeo 
 
-Demonstração do funcionamento (YouTube) - [link aqui]
+Demonstração do funcionamento (YouTube) - 
